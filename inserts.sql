@@ -1,5 +1,4 @@
-
-
+set FOREIGN_KEY_CHECKS=0;
 
 
 INSERT INTO `mydb`.`membro` (`id_membro`, `nome_membro`, `ginásio_id_ginásio`, `peso_membro`, `altura_membro`, `localidade_membro`, `data_nascimento_membro`, `tipo_de_inscrição_id_tipo`) VALUES (40005124, 'José Silva', 1, 76, 189, 'Braga', 1994/11/16, 1);
