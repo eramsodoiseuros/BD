@@ -1,6 +1,6 @@
 USE mydb;
 DELIMITER //
-
+drop procedure if exists getAulasPorMembro;
 create procedure getAulasPorMembro (IN id_membro INT)
 
 	begin
