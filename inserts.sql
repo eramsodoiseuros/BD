@@ -80,16 +80,16 @@ INSERT INTO `mydb`.`tipo_de_inscrição` (`id_tipo`, `nome_tipo`) VALUES (3, 'At
 
 -- -----------------------------------------------CONSULTA------------------------------------------------------------
 
-INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (1, 'Nutrição', '2020/12/16', 30002142, 40005124);
-INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (2, 'Acompanhamento Físico', '2020/12/16', 30005215, 40005216);
-INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (4, 'Check-Up', '2020/12/16', 30006216, 40006126);
-INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (3, 'Performance', '2020/12/17', 30007241, 40006121);
-INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (5, 'Acompanhamento Físico', '2020/12/17', 30005215, 40007235);
-INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (6, 'Performance', '2020/12/18', 30007241, 40007231);
-INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (7, 'Nutrição', '2020/12/19', 30002142, 40008943);
-INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (8, 'Check-Up', '2020/12/17', 30007241, 40007234);
-INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (9, 'Nutrição', '2020/12/20', 30002142, 40008349);
-INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (10, 'Acompanhamento Físico', '2020/12/19', 30005215, 40007326);
+INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (1, 'Nutrição', '2020/12/16 11:00:00', 30002142, 40005124);
+INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (2, 'Acompanhamento Físico', '2020/12/16 10:00:00', 30005215, 40005216);
+INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (4, 'Check-Up', '2020/12/16 14:00:00', 30006216, 40006126);
+INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (3, 'Performance', '2020/12/17 15:00:00', 30007241, 40006121);
+INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (5, 'Acompanhamento Físico', '2020/12/17 10:00:00', 30005215, 40007235);
+INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (6, 'Performance', '2020/12/18 13:00:00', 30007241, 40007231);
+INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (7, 'Nutrição', '2020/12/19 11:00:00', 30002142, 40008943);
+INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (8, 'Check-Up', '2020/12/17 11:00:00', 30007241, 40007234);
+INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (9, 'Nutrição', '2020/12/20 14:00:00', 30002142, 40008349);
+INSERT INTO `mydb`.`consulta` (`id_consulta`, `tipo_consulta`, `data_consulta`, `nutricionista_id_nutricionista`, `membro_id_membro`) VALUES (10, 'Acompanhamento Físico', '2020/12/19 14:00:00', 30005215, 40007326);
 
 -- ----------------------------------------------------------------NUTRICIONISTA------------------------------------------------------------------
 
@@ -137,13 +137,13 @@ INSERT INTO `mydb`.`pt` (`id_pt`, `nome_pt`, `ginásio_id_ginásio`) VALUES (100
 
 -- ----------------------------------------------------AULAS-----------------------------------------------------------
 
-INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (1, 'Pilates', 10001427, 1, 40005124, '2020/12/18');
-INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (2, 'Core', 10004122, 1, 40005216, '2020/12/21');
-INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (3, 'Cycling', 10005182, 1, 40006126, '2020/12/21');
-INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (4, 'Yoga', 10005214, 1, 40006121, '2020/12/21');
-INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (5, 'Judo', 10005215, 1, 40007235, '2020/12/21');
-INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (6, 'Pilates', 10001427, 1, 40007231, '2020/12/19');
-INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (7, 'Pilates', 10001427, 1, 40008943, '2020/12/20');
-INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (8, 'Cycling', 10005182, 1, 40007234, '2020/12/23');
-INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (9, 'Yoga', 10005214, 1, 40008349, '2020/12/22');
-INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (10, 'Core', 10004122, 1, 40007326, '2020/12/22');
+INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (1, 'Pilates', 10001427, 1, 40005124, '2020/12/18 10:00:00');
+INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (2, 'Core', 10004122, 1, 40005216, '2020/12/21 11:00:00');
+INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (3, 'Cycling', 10005182, 1, 40006126, '2020/12/21 12:00:00');
+INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (4, 'Yoga', 10005214, 1, 40006121, '2020/12/21 13:00:00');
+INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (5, 'Judo', 10005215, 1, 40007235, '2020/12/21 15:00:00');
+INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (6, 'Pilates', 10001427, 1, 40007231, '2020/12/19 10:00:00');
+INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (7, 'Pilates', 10001427, 1, 40008943, '2020/12/20 10:00:00');
+INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (8, 'Cycling', 10005182, 1, 40007234, '2020/12/23 12:00:00');
+INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (9, 'Yoga', 10005214, 1, 40008349, '2020/12/22 13:00:00');
+INSERT INTO `mydb`.`aulas` (`id_aulas`, `nome_aulas`, `pt_id_pt`, `ginasio_id_ginasio`, `membro_id_membro`, `data_aulas`) VALUES (10, 'Core', 10004122, 1, 40007326, '2020/12/22 11:00:00');
